@@ -1,0 +1,7 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v0.14.1
+_src_path: https://github.com/mbercx/python-copier
+doc_deploy: github
+docs: mkdocs
+package_name: strudel
+type_check: strict
