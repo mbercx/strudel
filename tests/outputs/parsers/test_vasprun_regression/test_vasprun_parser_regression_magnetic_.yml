@@ -1,0 +1,1217 @@
+atominfo:
+  atoms:
+    data:
+    - - Fe
+      - 1.0
+    fields:
+    - element
+    - atomtype
+  atomtypes:
+    data:
+    - - 1.0
+      - Fe
+      - 55.847
+      - 8.0
+      - PAW_PBE Fe 06Sep2000
+    fields:
+    - atomspertype
+    - element
+    - mass
+    - valence
+    - pseudopotential
+  types: 1.0
+calculation:
+- dos:
+    efermi: 0.87798
+    partial:
+      no_name_arrays:
+      - data:
+          ion 1:
+            spin 1:
+            - - -5.6579
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+            - - 0.9504
+              - 0.0
+              - 0.2208
+              - 0.2208
+              - 0.2208
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+            - - 7.46
+              - 0.0
+              - -0.0
+              - -0.0
+              - -0.0
+              - -0.0
+              - -0.0
+              - 0.0
+              - -0.0
+              - 0.0
+            - - 17.3231
+              - -0.0
+              - -0.0
+              - -0.0
+              - -0.0
+              - -0.0
+              - -0.0
+              - -0.0
+              - -0.0
+              - -0.0
+            - - 23.9313
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+            spin 2:
+            - - -5.6579
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+            - - 0.9504
+              - -0.0
+              - -0.0
+              - -0.0
+              - -0.0
+              - 0.0033
+              - 0.0033
+              - -0.0
+              - 0.0033
+              - -0.0
+            - - 7.46
+              - 0.0124
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.003
+              - 0.0
+              - 0.003
+            - - 17.3231
+              - -0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - -0.0
+              - -0.0
+              - -0.0
+              - -0.0
+              - -0.0
+            - - 23.9313
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+        fields:
+        - energy
+        - s
+        - py
+        - pz
+        - px
+        - dxy
+        - dyz
+        - dz2
+        - dxz
+        - x2-y2
+    total:
+      no_name_arrays:
+      - data:
+          spin 1:
+          - - -5.6579
+            - 0.0
+            - 0.0
+          - - 0.9504
+            - 2.265
+            - 5.5031
+          - - 7.46
+            - -0.0
+            - 7.0
+          - - 17.3231
+            - -0.0
+            - 8.5
+          - - 23.9313
+            - 0.0
+            - 10.0
+          spin 2:
+          - - -5.6579
+            - 0.0
+            - 0.0
+          - - 0.9504
+            - 0.0116
+            - 2.6294
+          - - 7.46
+            - 0.0252
+            - 6.6228
+          - - 17.3231
+            - -0.0
+            - 8.5
+          - - 23.9313
+            - 0.0
+            - 10.0
+        fields:
+        - energy
+        - total
+        - integrated
+  eigenvalues:
+    no_name_arrays:
+    - data:
+        spin 1:
+          kpoint 1:
+          - - -4.2494
+            - 1.0
+          - - -1.9155
+            - 1.0
+          - - -0.7413
+            - 1.0
+          - - 13.6343
+            - 0.0
+          - - 16.5644
+            - 0.0
+          kpoint 2:
+          - - -2.0697
+            - 1.0
+          - - -1.191
+            - 1.0
+          - - -0.7013
+            - 1.0
+          - - 17.7117
+            - 0.0
+          - - 18.8315
+            - 0.0
+        spin 2:
+          kpoint 1:
+          - - -4.3129
+            - 1.0
+          - - 0.1177
+            - 1.0
+          - - 2.6576
+            - -0.0
+          - - 13.9243
+            - 0.0
+          - - 16.6652
+            - 0.0
+          kpoint 2:
+          - - -1.0514
+            - 1.0
+          - - 0.5526
+            - 1.0
+          - - 2.0158
+            - -0.0
+          - - 18.146
+            - 0.0
+          - - 18.3753
+            - 0.0
+      fields:
+      - eigene
+      - occ
+  energy:
+    e_0_energy: -6.35622
+    e_fr_energy: -6.35709
+    e_wo_entrp: -6.3545
+  forces:
+  - - 0.0
+    - -0.0
+    - 0.0
+  orbital magnetization:
+    MAGDIPOLOUT:
+    - 0.0
+    - 0.0
+    - 0.0
+  projected:
+    eigenvalues:
+      no_name_arrays:
+      - data:
+          spin 1:
+            kpoint 1:
+            - - -4.2494
+              - 1.0
+            - - -1.9155
+              - 1.0
+            - - -0.7413
+              - 1.0
+            - - 13.6343
+              - 0.0
+            - - 16.5644
+              - 0.0
+            kpoint 2:
+            - - -2.0697
+              - 1.0
+            - - -1.191
+              - 1.0
+            - - -0.7013
+              - 1.0
+            - - 17.7117
+              - 0.0
+            - - 18.8315
+              - 0.0
+          spin 2:
+            kpoint 1:
+            - - -4.3129
+              - 1.0
+            - - 0.1177
+              - 1.0
+            - - 2.6576
+              - -0.0
+            - - 13.9243
+              - 0.0
+            - - 16.6652
+              - 0.0
+            kpoint 2:
+            - - -1.0514
+              - 1.0
+            - - 0.5526
+              - 1.0
+            - - 2.0158
+              - -0.0
+            - - 18.146
+              - 0.0
+            - - 18.3753
+              - 0.0
+        fields:
+        - eigene
+        - occ
+    no_name_arrays:
+    - data:
+        spin1:
+          kpoint 1:
+            band 1:
+            - - 0.3925
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+            band 2:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.3045
+              - 0.0
+              - 0.6021
+            band 3:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.6021
+              - 0.0
+              - 0.3045
+            band 4:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.4317
+              - 0.2472
+              - 0.0
+              - 0.2962
+              - 0.0
+            band 5:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.5231
+              - 0.1288
+              - 0.0
+              - 0.3232
+              - 0.0
+          kpoint 2:
+            band 1:
+            - - 0.176
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.141
+              - 0.0
+              - 0.4231
+            band 2:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.6924
+              - 0.0
+              - 0.2308
+            band 3:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.101
+              - 0.0
+              - 0.0
+              - 0.849
+              - 0.0
+            band 4:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.849
+              - 0.0
+              - 0.0
+              - 0.101
+              - 0.0
+            band 5:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.9771
+              - 0.0
+              - 0.0
+              - 0.0
+        spin2:
+          kpoint 1:
+            band 1:
+            - - 0.3656
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+            band 2:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.3619
+              - 0.0
+              - 0.5183
+            band 3:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.5183
+              - 0.0
+              - 0.3619
+            band 4:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.1927
+              - 0.2666
+              - 0.0
+              - 0.516
+              - 0.0
+            band 5:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.4017
+              - 0.5409
+              - 0.0
+              - 0.0327
+              - 0.0
+          kpoint 2:
+            band 1:
+            - - 0.2784
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0808
+              - 0.0
+              - 0.2424
+            band 2:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.6804
+              - 0.0
+              - 0.2268
+            band 3:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.2652
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+            band 4:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.811
+              - 0.0
+              - 0.0
+              - 0.1252
+              - 0.0
+            band 5:
+            - - 0.0
+              - 0.0
+              - 0.0
+              - 0.0
+              - 0.1252
+              - 0.0
+              - 0.0
+              - 0.811
+              - 0.0
+      fields:
+      - s
+      - py
+      - pz
+      - px
+      - dxy
+      - dyz
+      - dz2
+      - dxz
+      - x2-y2
+  scstep:
+  - dav:
+      cpu: 0.07
+      wall: 0.08
+    energy:
+      XCdc: 3.53526
+      alphaZ: 29.23607
+      atom: 594.29483
+      bandstr: 33.23412
+      e_0_energy: 19.03756
+      e_fr_energy: 19.0355
+      e_wo_entrp: 19.04166
+      eentropy: -0.00616
+      ewald: -455.54263
+      hartreedc: -177.98996
+      pawaedc: -561.48529
+      pawpsdc: 553.75927
+    total:
+      cpu: 0.11
+      wall: 0.12
+  - dav:
+      cpu: 0.08
+      wall: 0.08
+    energy:
+      e_0_energy: -6.31952
+      e_fr_energy: -6.32076
+      e_wo_entrp: -6.31705
+    total:
+      cpu: 0.08
+      wall: 0.08
+  - dav:
+      cpu: 0.09
+      wall: 0.09
+    energy:
+      e_0_energy: -6.79052
+      e_fr_energy: -6.79175
+      e_wo_entrp: -6.78807
+    total:
+      cpu: 0.09
+      wall: 0.09
+  - dav:
+      cpu: 0.08
+      wall: 0.08
+    energy:
+      e_0_energy: -6.79203
+      e_fr_energy: -6.79326
+      e_wo_entrp: -6.78956
+    total:
+      cpu: 0.08
+      wall: 0.08
+  - dav:
+      cpu: 0.09
+      wall: 0.09
+    energy:
+      e_0_energy: -6.79205
+      e_fr_energy: -6.79328
+      e_wo_entrp: -6.78958
+    total:
+      cpu: 0.1
+      wall: 0.1
+  - dav:
+      cpu: 0.07
+      wall: 0.07
+    energy:
+      e_0_energy: -6.52065
+      e_fr_energy: -6.52229
+      e_wo_entrp: -6.51736
+    total:
+      cpu: 0.12
+      wall: 0.12
+  - dav:
+      cpu: 0.07
+      wall: 0.07
+    energy:
+      e_0_energy: -6.34636
+      e_fr_energy: -6.34786
+      e_wo_entrp: -6.34337
+    total:
+      cpu: 0.12
+      wall: 0.12
+  - dav:
+      cpu: 0.08
+      wall: 0.08
+    energy:
+      e_0_energy: -6.35528
+      e_fr_energy: -6.35684
+      e_wo_entrp: -6.35216
+    total:
+      cpu: 0.13
+      wall: 0.13
+  - dav:
+      cpu: 0.08
+      wall: 0.08
+    energy:
+      e_0_energy: -6.35349
+      e_fr_energy: -6.35454
+      e_wo_entrp: -6.35139
+    total:
+      cpu: 0.13
+      wall: 0.13
+  - dav:
+      cpu: 0.07
+      wall: 0.07
+    energy:
+      e_0_energy: -6.35622
+      e_fr_energy: -6.35724
+      e_wo_entrp: -6.35417
+    total:
+      cpu: 0.12
+      wall: 0.12
+  - dav:
+      cpu: 0.07
+      wall: 0.07
+    energy:
+      e_0_energy: -6.35631
+      e_fr_energy: -6.35716
+      e_wo_entrp: -6.35462
+    total:
+      cpu: 0.12
+      wall: 0.13
+  - dav:
+      cpu: 0.07
+      wall: 0.07
+    energy:
+      e_0_energy: -6.35621
+      e_fr_energy: -6.35708
+      e_wo_entrp: -6.35448
+    total:
+      cpu: 0.12
+      wall: 0.12
+  - dav:
+      cpu: 0.08
+      wall: 0.08
+    energy:
+      e_0_energy: -6.35623
+      e_fr_energy: -6.35708
+      e_wo_entrp: -6.35451
+    total:
+      cpu: 0.13
+      wall: 0.13
+  - dav:
+      cpu: 0.08
+      wall: 0.08
+    energy:
+      e_0_energy: -6.35622
+      e_fr_energy: -6.35709
+      e_wo_entrp: -6.35449
+    total:
+      cpu: 0.12
+      wall: 0.12
+  - dav:
+      cpu: 0.06
+      wall: 0.06
+    energy:
+      XCdc: 3.7339
+      alphaZ: 29.23607
+      atom: 594.29483
+      bandstr: -6.77901
+      e_0_energy: -6.35622
+      e_fr_energy: -6.35709
+      e_wo_entrp: -6.3545
+      eentropy: -0.00258
+      ewald: -455.54263
+      hartreedc: -163.17301
+      pawaedc: -589.42762
+      pawpsdc: 581.30298
+    total:
+      cpu: 0.1
+      wall: 0.1
+  stress:
+  - - -240.30156
+    - -0.0
+    - 0.0
+  - - 0.0
+    - -240.30156
+    - -0.0
+  - - -0.0
+    - 0.0
+    - -240.30156
+  structure:
+    crystal:
+      basis:
+      - - 2.87
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 2.87
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 2.87
+      rec_basis:
+      - - 0.34843
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.34843
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.34843
+      volume: 23.6399
+    positions:
+    - - 0.0
+      - 0.0
+      - 0.0
+  totalsc:
+    cpu: 1.86
+    wall: 1.88
+finalpos:
+  crystal:
+    basis:
+    - - 2.87
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 2.87
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 2.87
+    rec_basis:
+    - - 0.34843
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.34843
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.34843
+    volume: 23.6399
+  positions:
+  - - 0.0
+    - 0.0
+    - 0.0
+generator:
+  date: ''
+  platform: ''
+  program: vasp
+  subversion: complex parallel
+  time: ''
+  version: 6.5.1
+incar:
+  EDIFF: 0.0
+  ENCUT: 350.0
+  ISMEAR: 1.0
+  ISPIN: 2.0
+  LCHARG: false
+  LORBIT: 11.0
+  LWAVE: false
+  MAGMOM:
+  - 3.0
+  NELM: 60.0
+  PREC: Accurate
+  SIGMA: 0.1
+initialpos:
+  crystal:
+    basis:
+    - - 2.87
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 2.87
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 2.87
+    rec_basis:
+    - - 0.34843
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.34843
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.34843
+    volume: 23.6399
+  positions:
+  - - 0.0
+    - 0.0
+    - 0.0
+kpoints:
+  generation:
+    divisions:
+    - 2.0
+    - 2.0
+    - 2.0
+    genvec1:
+    - 0.5
+    - 0.0
+    - 0.0
+    genvec2:
+    - 0.0
+    - 0.5
+    - 0.0
+    genvec3:
+    - 0.0
+    - 0.0
+    - 0.5
+    shift:
+    - 0.0
+    - 0.0
+    - 0.0
+    usershift:
+    - 0.0
+    - 0.0
+    - 0.0
+  kpointlist:
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.5
+    - 0.0
+    - 0.0
+  weights:
+  - - 0.125
+  - - 0.375
+parameters:
+  External order field:
+    OFIELD_A: 0.0
+    OFIELD_K:
+    - 0.0
+    - 0.0
+    - 0.0
+    OFIELD_KAPPA: 0.0
+    OFIELD_Q6_FAR: 0.0
+    OFIELD_Q6_NEAR: 0.0
+  GGA_COMPAT: true
+  ICORELEVEL: 0.0
+  I_CONSTRAINED_M: 0.0
+  LBERRY: false
+  LDAU: false
+  dos:
+    EFERMI: 0.0
+    EMAX: -10.0
+    EMIN: 10.0
+    LORBIT: 11.0
+    NEDOS: 301.0
+    RWIGS:
+    - -1.0
+  electronic:
+    EDIFF: 0.0
+    ENAUG: 511.368
+    ENMAX: 350.0
+    EREF: 0.0
+    IALGO: 38.0
+    IRESTART: 0.0
+    IWAVPR: 10.0
+    NBANDS: 10.0
+    NBANDSHIGH: -1.0
+    NBANDSLOW: -1.0
+    NELECT: 8.0
+    NMIN: 0.0
+    NREBOOT: 0.0
+    PREC: accura
+    TURBO: 0.0
+    electronic convergence:
+      ENINI: 350.0
+      NELM: 60.0
+      NELMDL: -5.0
+      NELMIN: 2.0
+      electronic convergence detail:
+        DEPER: 0.3
+        EBREAK: 0.0
+        ISEARCH: 0.0
+        LDIAG: true
+        LROBUST: false
+        LSUBROT: false
+        NRMM: 4.0
+        TIME: 0.4
+        WEIMIN: 0.0
+    electronic dipolcorrection:
+      DIPOL:
+      - -100.0
+      - -100.0
+      - -100.0
+      EFIELD: 0.0
+      EPSILON: 1.0
+      IDIPOL: 0.0
+      LDIPOL: false
+      LMONO: false
+      LVACPOTAV: false
+    electronic exchange-correlation:
+      LASPH: false
+    electronic mixer:
+      AMIN: 0.1
+      AMIX: 0.4
+      AMIX_MAG: 1.6
+      BMIX: 1.0
+      BMIX_MAG: 1.0
+      electronic mixer details:
+        IMIX: 4.0
+        INIMIX: 1.0
+        MAXMIX: -45.0
+        MIXFIRST: false
+        MIXPRE: 1.0
+        MREMOVE: 5.0
+        WC: 100.0
+    electronic projectors:
+      LMAXMIX: 2.0
+      LMAXPAW: -100.0
+      LREAL: false
+      NLSPLINE: false
+      ROPT:
+      - 0.0
+    electronic smearing:
+      ISMEAR: 1.0
+      KBLOWUP: true
+      KGAMMA: true
+      KSPACING: 0.5
+      SIGMA: 0.1
+    electronic spin:
+      ISPIN: 2.0
+      LNONCOLLINEAR: false
+      LSORBIT: false
+      LSPIRAL: false
+      LZEROZ: false
+      MAGMOM:
+      - 3.0
+      NUPDOWN: -1.0
+      QSPIRAL:
+      - 0.0
+      - 0.0
+      - 0.0
+      SAXIS:
+      - 0.0
+      - 0.0
+      - 1.0
+    electronic startup:
+      ICHARG: 2.0
+      INIWAV: 1.0
+      ISTART: 0.0
+  electronic exchange-correlation:
+    AEXX: 0.0
+    AGGAC: 1.0
+    AGGAX: 1.0
+    ALDAC: 1.0
+    ALDAX: 1.0
+    AMGGAC: 1.0
+    AMGGAX: 1.0
+    ENCUT4O: -1.0
+    EVENONLY: false
+    EXXOEP: 0.0
+    FOURORBIT: 0.0
+    'GGA    ': PE
+    HFALPHA: 0.0
+    HFSCREEN: 0.0
+    HFSCREENC: 0.0
+    LFOCKACE: false
+    LFOCKAEDFT: false
+    LHFCALC: false
+    LHFONE: false
+    LMAXFOCK: 0.0
+    LMODELHF: false
+    LRHFCALC: false
+    LSYMGRAD: false
+    LTHOMAS: false
+    MCALPHA: 0.0
+    NBANDSGWLOW: 0.0
+    NKREDX: 1.0
+    NKREDY: 1.0
+    NKREDZ: 1.0
+    NMAXFOCKAE: 0.0
+    ODDONLY: false
+    PRECFOCK: ''
+    SHIFTRED: false
+    VOSKOWN: 0.0
+    XC_C: '1'
+  general:
+    LCOMPAT: false
+    SYSTEM: unknown system
+  grids:
+    ADDGRID: false
+    NGX: 18.0
+    NGXF: 36.0
+    NGY: 18.0
+    NGYF: 36.0
+    NGZ: 18.0
+    NGZF: 36.0
+  ionic:
+    EDIFFG: 1.0e-05
+    IBRION: -1.0
+    ISIF: 2.0
+    MDALGO: 0.0
+    NFREE: 0.0
+    NSW: 0.0
+    POTIM: 0.5
+    PSTRESS: 0.0
+    SCALEE: 1.0
+    SMASS: -3.0
+  ionic md:
+    APACO: 10.0
+    KBLOCK: 1.0
+    NBLOCK: 1.0
+    NPACO: 256.0
+    TEBEG: 0.0001
+    TEEND: 0.0001
+  linear response parameters:
+    CSHIFT: 0.1
+    DEG_THRESHOLD: 0.002
+    DFIELD:
+    - 0.0
+    - 0.0
+    - 0.0
+    LEPSILON: false
+    LNABLA: false
+    LRPA: false
+    LVEL: false
+    OMEGAMAX: -1.0
+    RTIME: -0.1
+    WPLASMA:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    WPLASMAI: 0.0
+  miscellaneous:
+    DARWINR:
+    - 0.0
+    DARWINV:
+    - 1.0
+    IDIOT: 3.0
+    LCORR: true
+    LMUSIC: false
+    PHON_NSTRUCT: -1.0
+    POMASS:
+    - 55.847
+  model GW:
+    MODEL_ALPHA: 1.0
+    MODEL_EPS0: 14.18394
+    MODEL_GW: 0.0
+  optional k-points parameters:
+    KPOINTS_OPT_MODE: 1.0
+    LKPOINTS_OPT: false
+  orbital magnetization:
+    AVECCONST:
+    - 0.0
+    - 0.0
+    - 0.0
+    LCHIMAG: false
+    LGAUGE: true
+    LMAGBLOCH: false
+    LNICSALL: true
+    MAGATOM: 0.0
+    MAGDIPOL:
+    - 0.0
+    - 0.0
+    - 0.0
+    MAGPOS:
+    - 0.0
+    - 0.0
+    - 0.0
+    NUCIND: false
+    ORBITALMAG: false
+  performance:
+    LASYNC: false
+    LORBITALREAL: false
+    LPLANE: true
+    LSCAAWARE: false
+    LSCALAPACK: true
+    LSCALU: false
+    NBLK: -1.0
+    NPAR: 1.0
+    NSIM: 4.0
+  response functions:
+    ANTIRES: 0.0
+    CSHIFT: -0.1
+    DAMP_NEWTON: 0.8
+    DIM: 3.0
+    ENCUTGW: -1.6
+    ENCUTGWSOFT: -1.6
+    ENCUTLF: -1.0
+    ESF_CONV: 0.01
+    ESF_NINTER: 15.0
+    ESF_SPLINES: false
+    EVENONLYGW: false
+    IALL_IN_ONE: -1.0
+    IBSE: 2.0
+    IESPILON: 4.0
+    KPOINT:
+    - -1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    L2ORDER: false
+    LADDER: false
+    LALL_IN_ONE: false
+    LAMBDA: 1.0
+    LDMP1: false
+    LFERMIGW: false
+    LFINITE_TEMPERATURE: false
+    LFXC: false
+    LFXCEPS: false
+    LFXHEG: false
+    LGWLF: false
+    LHARTREE: true
+    LHOLEGF: false
+    LMAXMP2: -1.0
+    LMP2LT: false
+    LRPAFORCE: false
+    LSELFENERGY: false
+    LSINGLES: false
+    LSMP2LT: false
+    LSPECTRAL: false
+    LSPECTRALGW: false
+    LTCTC: false
+    LTCTE: false
+    LTETE: false
+    LTRIPLET: false
+    MAXMEM: 2800.0
+    NATURALO: 2.0
+    NBANDSGW: -1.0
+    NBANDSO: -1.0
+    NBANDSV: -1.0
+    NBANDS_WAVE: -1.0
+    NELMGW: 1.0
+    NELMHF: 1.0
+    NKREDLFX: 1.0
+    NKREDLFY: 1.0
+    NKREDLFZ: 1.0
+    NOMEGA: 0.0
+    NOMEGAPAR: -1.0
+    NOMEGAR: 0.0
+    NTAUPAR: -1.0
+    ODDONLYGW: false
+    OMEGAGRID: 0.0
+    OMEGAMAX: -30.0
+    OMEGAMIN: -30.0
+    OMEGATL: -200.0
+    SCISSOR: 0.0
+    TELESCOPE: 0.0
+  symmetry:
+    ISYM: 2.0
+    SYMPREC: 1.0e-05
+  vdW DFT:
+    ALPHA_VDW: 0.0
+    BPARAM: 6.3
+    CPARAM: 0.0093
+    GAMMA_VDW: 1.39626
+    IVDW_NL: -1.0
+    LSPIN_VDW: false
+    LUSE_VDW: false
+    PARAM1: 0.1234
+    PARAM2: 1.0
+    ZAB_VDW: -0.8491
+  writing:
+    LCHARG: false
+    LDOWNSAMPLE: false
+    LELF: false
+    LOPTICS: false
+    LPARD: false
+    LVHAR: false
+    LVTOT: false
+    LWAVE: false
+    NWRITE: 2.0
+    STM:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+primitive_cell:
+  primitive_cell:
+    crystal:
+      basis:
+      - - 2.87
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 2.87
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 2.87
+      rec_basis:
+      - - 0.34843
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.34843
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.34843
+      volume: 23.6399
+    positions:
+    - - 0.0
+      - 0.0
+      - 0.0
+  primitive_index:
+  - - 1.0

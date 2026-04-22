@@ -1,0 +1,496 @@
+atominfo:
+  atoms:
+    data:
+    - - Si
+      - 1.0
+    - - Si
+      - 1.0
+    - - Si
+      - 1.0
+    - - Si
+      - 1.0
+    - - Si
+      - 1.0
+    - - Si
+      - 1.0
+    - - Si
+      - 1.0
+    - - Si
+      - 1.0
+    fields:
+    - element
+    - atomtype
+  atomtypes:
+    data:
+    - - 8.0
+      - Si
+      - 28.085
+      - 4.0
+      - PAW_PBE Si 05Jan2001
+    fields:
+    - atomspertype
+    - element
+    - mass
+    - valence
+    - pseudopotential
+  types: 1.0
+calculation:
+- dos:
+    efermi: 5.92134
+    total:
+      no_name_arrays:
+      - data:
+          spin 1:
+          - - -8.1993
+            - 0.0
+            - 0.0
+          - - -6.2097
+            - 0.1533
+            - 0.0191
+          - - -4.2201
+            - 2.7187
+            - 2.8728
+          - - -2.2304
+            - 1.0969
+            - 7.7143
+          - - -0.2408
+            - 2.2598
+            - 12.6628
+          - - 1.7489
+            - 4.519
+            - 16.2786
+          - - 3.7385
+            - 5.5735
+            - 26.5228
+          - - 5.7282
+            - 0.2036
+            - 31.9868
+          - - 7.7178
+            - 4.3456
+            - 35.7822
+          - - 10.3935
+            - 0.9102
+            - 47.9066
+        fields:
+        - energy
+        - total
+        - integrated
+  eigenvalues:
+    no_name_arrays:
+    - data:
+        spin 1:
+          kpoint 1:
+          - - -6.1993
+            - 1.0
+          - - -2.1305
+            - 1.0
+          - - -2.1305
+            - 1.0
+          - - -2.1305
+            - 1.0
+          - - -2.1304
+            - 1.0
+          - - -2.1304
+            - 1.0
+          kpoint 2:
+          - - -6.08
+            - 1.0
+          - - -3.3188
+            - 1.0
+          - - -2.0946
+            - 1.0
+          - - -2.0946
+            - 1.0
+          - - -2.0945
+            - 1.0
+          - - -2.0945
+            - 1.0
+          kpoint 3:
+          - - -5.7239
+            - 1.0
+          - - -4.3297
+            - 1.0
+          - - -2.0175
+            - 1.0
+          - - -2.0175
+            - 1.0
+          - - -2.0174
+            - 1.0
+          - - -2.0174
+            - 1.0
+      fields:
+      - eigene
+      - occ
+  energy:
+    e_0_energy: -0.00053
+    e_fr_energy: -43.31237
+    e_wo_entrp: -43.31211
+  forces:
+  - - 0.0
+    - -0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - -0.0
+  - - -0.0
+    - 0.0
+    - -0.0
+  - - -0.0
+    - 0.0
+    - 0.0
+  - - -0.0
+    - -0.0
+    - 0.0
+  - - -0.0
+    - -0.0
+    - 0.0
+  - - 0.0
+    - -0.0
+    - -0.0
+  - - -0.0
+    - 0.0
+    - -0.0
+  orbital magnetization:
+    MAGDIPOLOUT:
+    - 0.0
+    - 0.0
+    - 0.0
+  scstep:
+  - dav:
+      cpu: 0.16
+      wall: 0.19
+    energy:
+      XCdc: -74.74304
+      alphaZ: 13.17072
+      atom: 824.49029
+      bandstr: 83.73041
+      e_0_energy: 34.33397
+      e_fr_energy: 34.3098
+      e_wo_entrp: 34.35815
+      eentropy: -0.04835
+      ewald: -907.73367
+      hartreedc: -45.30281
+      pawaedc: -564.24414
+      pawpsdc: 704.9904
+    total:
+      cpu: 0.18
+      wall: 0.27
+  - dav:
+      cpu: 0.2
+      wall: 0.2
+    energy:
+      e_0_energy: -40.91109
+      e_fr_energy: -40.91112
+      e_wo_entrp: -40.91107
+    total:
+      cpu: 0.2
+      wall: 0.21
+  - diag:
+      cpu: 0.04
+      wall: 0.04
+    diis:
+      cpu: 0.1
+      wall: 0.1
+    energy:
+      XCdc: -72.20841
+      alphaZ: 13.17072
+      atom: 824.49029
+      bandstr: 19.72695
+      e_0_energy: -43.31211
+      e_fr_energy: -43.31237
+      e_wo_entrp: -43.31184
+      eentropy: -0.00053
+      ewald: -907.73367
+      hartreedc: -60.65576
+      pawaedc: -3788.91504
+      pawpsdc: 3928.81308
+    orth:
+      cpu: 0.0
+      wall: 0.0
+    total:
+      cpu: 0.16
+      wall: 0.16
+  stress:
+  - - -1.95307
+    - -0.0
+    - 0.0
+  - - -0.0
+    - -1.95307
+    - -0.0
+  - - 0.0
+    - -0.0
+    - -1.95307
+  structure:
+    crystal:
+      basis:
+      - - 5.469
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 5.469
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 5.469
+      rec_basis:
+      - - 0.18285
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.18285
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.18285
+      volume: 163.57802
+    positions:
+    - - 0.0
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.5
+      - 0.5
+    - - 0.5
+      - 0.5
+      - 0.0
+    - - 0.5
+      - 0.0
+      - 0.5
+    - - 0.75
+      - 0.25
+      - 0.75
+    - - 0.25
+      - 0.25
+      - 0.25
+    - - 0.25
+      - 0.75
+      - 0.75
+    - - 0.75
+      - 0.75
+      - 0.25
+  totalsc:
+    cpu: 2.5
+    wall: 3.08
+finalpos:
+  crystal:
+    basis:
+    - - 5.469
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 5.469
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 5.469
+    rec_basis:
+    - - 0.18285
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.18285
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.18285
+    volume: 163.57802
+  positions:
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.5
+    - 0.5
+  - - 0.5
+    - 0.5
+    - 0.0
+  - - 0.5
+    - 0.0
+    - 0.5
+  - - 0.75
+    - 0.25
+    - 0.75
+  - - 0.25
+    - 0.25
+    - 0.25
+  - - 0.25
+    - 0.75
+    - 0.75
+  - - 0.75
+    - 0.75
+    - 0.25
+generator:
+  date: 2000 01 01
+  platform: EXAMPLE_VASP_5.4.1
+  program: vasp
+  subversion: 01Jan00 (build Jan 01 2000 00:00:00) complex                          parallel
+  time: 00:00:00
+  version: 5.4.1
+incar:
+  ALGO: Fast
+  EDIFF: 0.0
+  ISMEAR: 0.0
+  KPOINT_BSE:
+  - -1.0
+  - 0.0
+  - 0.0
+  - 0.0
+  LPLANE: true
+  LREAL: false
+  LSCALU: false
+  NSIM: 4.0
+  PREC: accurate
+  SIGMA: 0.2
+initialpos:
+  crystal:
+    basis:
+    - - 5.469
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 5.469
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 5.469
+    rec_basis:
+    - - 0.18285
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 0.18285
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 0.18285
+    volume: 163.57802
+  positions:
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.5
+    - 0.5
+  - - 0.5
+    - 0.5
+    - 0.0
+  - - 0.5
+    - 0.0
+    - 0.5
+  - - 0.75
+    - 0.25
+    - 0.75
+  - - 0.25
+    - 0.25
+    - 0.25
+  - - 0.25
+    - 0.75
+    - 0.75
+  - - 0.75
+    - 0.75
+    - 0.25
+kpoints:
+  generation:
+    divisions:
+    - 6.0
+    - 6.0
+    - 6.0
+    genvec1:
+    - 0.16667
+    - 0.0
+    - 0.0
+    genvec2:
+    - 0.0
+    - 0.16667
+    - 0.0
+    genvec3:
+    - 0.0
+    - 0.0
+    - 0.16667
+    shift:
+    - 0.0
+    - 0.0
+    - 0.0
+    usershift:
+    - 0.0
+    - 0.0
+    - 0.0
+  kpointlist:
+  - - 0.0
+    - 0.0
+    - 0.0
+  - - 0.16667
+    - 0.0
+    - 0.0
+  - - 0.33333
+    - 0.0
+    - 0.0
+  weights:
+  - - 0.00463
+  - - 0.02778
+  - - 0.02778
+parameters:
+  GGA_COMPAT: true
+  ICORELEVEL: 0.0
+  I_CONSTRAINED_M: 0.0
+  LBERRY: false
+  LDAU: false
+  electronic:
+    EDIFF: 0.0
+    ENAUG: 322.069
+    ENMAX: 245.345
+    EREF: 0.0
+    IALGO: 68.0
+    IRESTART: 0.0
+    IWAVPR: 10.0
+    NBANDS: 24.0
+    NELECT: 32.0
+    NMIN: 0.0
+    NREBOOT: 0.0
+    PREC: accura
+    TURBO: 0.0
+    electronic convergence:
+      ENINI: 245.345
+      NELM: 60.0
+      NELMDL: -5.0
+      NELMIN: 2.0
+      electronic convergence detail:
+        DEPER: 0.3
+        EBREAK: 0.0
+        LDIAG: true
+        LSUBROT: false
+        NRMM: 4.0
+        TIME: 0.4
+        WEIMIN: 0.0
+    electronic smearing:
+      ISMEAR: 0.0
+      KGAMMA: true
+      KSPACING: 0.5
+      SIGMA: 0.2
+    electronic spin:
+      ISPIN: 1.0
+      LNONCOLLINEAR: false
+      LSORBIT: false
+      LSPIRAL: false
+      LZEROZ: false
+      MAGMOM:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      NUPDOWN: -1.0
+      QSPIRAL:
+      - 0.0
+      - 0.0
+      - 0.0
+      SAXIS:
+      - 0.0
+      - 0.0
+      - 1.0
+  general:
+    LCOMPAT: false
+    SYSTEM: unknown system
