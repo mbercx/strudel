@@ -42,7 +42,10 @@ def get_github_url() -> str | None:
     try:
         url = subprocess.run(
             ["git", "remote", "get-url", GIT_REMOTE],
-            capture_output=True, check=True, encoding="utf-8", cwd=ROOT,
+            capture_output=True,
+            check=True,
+            encoding="utf-8",
+            cwd=ROOT,
         ).stdout.strip()
     except subprocess.CalledProcessError:
         return None
@@ -55,9 +58,14 @@ def get_latest_tag() -> str | None:
     """Return the latest `vX.Y.Z` tag, or `None` if no tags exist."""
     result = subprocess.run(
         ["git", "tag", "--sort=v:refname"],
-        capture_output=True, check=True, encoding="utf-8", cwd=ROOT,
+        capture_output=True,
+        check=True,
+        encoding="utf-8",
+        cwd=ROOT,
     )
-    tags = [t for t in result.stdout.splitlines() if re.fullmatch(r"v\d+\.\d+\.\d+\S*", t)]
+    tags = [
+        t for t in result.stdout.splitlines() if re.fullmatch(r"v\d+\.\d+\.\d+\S*", t)
+    ]
     return tags[-1] if tags else None
 
 
@@ -67,7 +75,11 @@ def get_commits(since_tag: str | None) -> str:
     if since_tag:
         cmd.append(f"{since_tag}..HEAD")
     return subprocess.run(
-        cmd, capture_output=True, check=True, encoding="utf-8", cwd=ROOT,
+        cmd,
+        capture_output=True,
+        check=True,
+        encoding="utf-8",
+        cwd=ROOT,
     ).stdout
 
 
@@ -75,7 +87,7 @@ def classify_commit(message: str) -> tuple[str | None, str]:
     """Return `(emoji, stripped_message)` or `(None, message)` if not a changelog type."""
     for emoji in ALL_SECTIONS:
         if message.startswith(emoji):
-            return emoji, message[len(emoji):].lstrip()
+            return emoji, message[len(emoji) :].lstrip()
     return None, message
 
 
@@ -84,7 +96,9 @@ def update_changelog() -> None:
     version = __version__
 
     changelog_path = ROOT / "CHANGELOG.md"
-    current = changelog_path.read_text(encoding="utf-8") if changelog_path.exists() else ""
+    current = (
+        changelog_path.read_text(encoding="utf-8") if changelog_path.exists() else ""
+    )
 
     if f"## v{version}" in current:
         print(f"🔄 Version v{version} already in CHANGELOG.md. Skipping.")
@@ -92,7 +106,9 @@ def update_changelog() -> None:
 
     github_url = get_github_url()
     if github_url is None:
-        print(f"⚠️  Could not derive GitHub URL from remote '{GIT_REMOTE}'. Commit links will use plain hashes.")
+        print(
+            f"⚠️  Could not derive GitHub URL from remote '{GIT_REMOTE}'. Commit links will use plain hashes."
+        )
 
     latest_tag = get_latest_tag()
     commits_raw = get_commits(latest_tag)
@@ -121,7 +137,9 @@ def update_changelog() -> None:
             continue
 
         if github_url:
-            entry = f"* {stripped_msg} [[{hash_short}]({github_url}/commit/{hash_long})]"
+            entry = (
+                f"* {stripped_msg} [[{hash_short}]({github_url}/commit/{hash_long})]"
+            )
         else:
             entry = f"* {stripped_msg} [{hash_short}]"
 
