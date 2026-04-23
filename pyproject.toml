@@ -20,6 +20,9 @@ classifiers = [
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
 ]
+dependencies = [
+  "dough==0.2.1",
+]
 
 [project.optional-dependencies]
 docs = [
@@ -87,3 +90,7 @@ lint.ignore = [
 python_version = "3.10"
 files = ["src"]
 strict = true
+
+[[tool.mypy.overrides]]
+module = ["glom"]
+ignore_missing_imports = true

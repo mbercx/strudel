@@ -1,0 +1,30 @@
+base_outputs:
+  energy_cutoff: 350.0
+  energy_no_entropy: -6.3545
+  fermi_energy: 0.87798
+  n_scf_steps:
+  - 15.0
+  site_magnetization:
+  - d: 2.972
+    p: -0.03
+    s: -0.048
+    tot: 2.894
+  structure:
+    cell:
+    - - 2.87
+      - 0.0
+      - 0.0
+    - - 0.0
+      - 2.87
+      - 0.0
+    - - 0.0
+      - 0.0
+      - 2.87
+    positions:
+    - - 0.0
+      - 0.0
+      - 0.0
+    symbols:
+    - Fe
+  total_energy: -6.35709
+  total_magnetization: 2.72428
