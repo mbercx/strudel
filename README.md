@@ -2,4 +2,5 @@
 
 # `strudel`
 
-The `strudel` Python package.
+Typed Python interface for [VASP](https://www.vasp.at/) output files, built on the [`dough`](https://github.com/mbercx/dough) framework.
+
