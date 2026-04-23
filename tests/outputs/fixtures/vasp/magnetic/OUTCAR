@@ -1,0 +1,27 @@
+ vasp.6.5.1 complex
+ running    1 mpi-ranks, with    1 threads/rank, on    1 nodes
+ distrk:  each k-point on    1 cores,    1 groups
+ distr:  one band on NCORE=   1 cores,    1 groups
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ INCAR:
+--- Removed: INCAR/POTCAR/k-points/initial setup ---
+ number of electron       8.0000000 magnetization       3.0000000
+--- Removed: intermediate SCF steps ---
+ number of electron       7.9999965 magnetization       2.7242808
+--- Removed: pre-final-SCF output (energies, forces, etc.) ---
+ magnetization (x)
+
+# of ion       s       p       d       tot
+------------------------------------------
+    1       -0.048  -0.030   2.972   2.894
+--- Removed: intermediate total/magnetization (x) blocks ---
+ magnetization (x)
+
+# of ion       s       p       d       tot
+------------------------------------------
+    1       -0.048  -0.030   2.972   2.894
+--- Removed: post-run timing/memory summary ---
